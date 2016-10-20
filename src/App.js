@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
 import * as stations from './stations.js';
 // const buses =
@@ -63,6 +63,12 @@ class WheresMyBus extends Component {
 }
 
 class App extends Component {
+//   componentWillMount() {
+//     debugger;
+//     let today = new Date();
+//     console.log(today.getDay(), today.getHour(),":",today.getMinutes())
+//     return;
+//   }
   render() {
     return (
       <div className="App">
